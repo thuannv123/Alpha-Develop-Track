@@ -24,6 +24,13 @@
 }
 @font-face {
   font-family: "ABC Arizona Flare";
+  src: url("../fonts/ABCArizonaFlare-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ABC Arizona Flare";
   src: url("../fonts/ABCArizonaFlare-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
@@ -43,26 +50,31 @@
   font-style: normal;
   font-display: swap;
 }
-body {
-  padding-bottom: 1000px;
-}
 *,
 .tp-title {
   font-family: "Aeonik", serif;
   box-sizing: border-box;
 }
+body {
+  padding-bottom: 2000px;
+}
 h1,
 h2,
 h3,
 .cpr-benefit__percent,
-.variant_name_new {
+.variant_name_new,
+.meta_real_reviews_video_title_new,
+.innertitle_new,
+h2 span {
   font-family: "ABC Arizona Flare", serif;
 }
 .header-section .header-bar span,
 .header-section .header-bar strong,
 .variant_holiday_deal_badge,
 .variant_best_value_new,
-.variant_servings_price_new {
+.variant_servings_price_new,
+.Index_breakdown_lists_innersides_innerright_innerdetail_innerloops_innerboxs_price_new
+  s {
   font-family: "NB Architekt";
 }
 .header-section .header-nav span {
@@ -215,4 +227,145 @@ h3,
 }
 .tp-learn-more-btn:hover::after {
   opacity: 1;
+}
+.toggle-block .answer {
+  max-height: 0;
+  overflow: hidden;
+  padding-bottom: 0;
+  transition:
+    max-height 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+    padding-bottom 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: max-height;
+}
+.toggle-block.active .answer {
+  max-height: 2000px;
+  padding-bottom: 16px;
+  transition:
+    max-height 10s cubic-bezier(0.22, 1, 0.36, 1),
+    padding-bottom 1s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.bg-span {
+  background-image: url(../images/product_banner_plus.svg);
+}
+.toggle-block.active .bg-span {
+  background-image: url(../images/minus.svg);
+}
+.video_view.slick-initialized .slick-slide {
+  padding-right: 12px;
+  cursor: pointer;
+}
+.mobile_image_new {
+  display: none;
+}
+.Mobile_only_new {
+  display: none;
+}
+.header-inner h2::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 184px;
+  height: 1px;
+  background: #fff;
+}
+.slide_post.slick-initialized .slick-slide {
+  padding-right: 23px;
+}
+.rw-hover {
+  transform: translateY(0);
+  transition: all 0.3s;
+}
+.rw-hover:hover {
+  transform: translateY(-5px);
+}
+.tabs input {
+  display: none;
+}
+
+.tab-buttons {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: #eee;
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  width: fit-content;
+  margin: auto;
+  padding: 6px;
+}
+
+.tab-buttons label {
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  color: #50000b;
+  width: fit-content;
+  font-size: 14px;
+}
+.tab-buttons .bg {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 999px;
+  transition:
+    transform 0.35s ease,
+    background-color 0.35s ease;
+}
+
+#tab1:checked ~ .tab-buttons .bg {
+  transform: translateX(0);
+  background: #a40011;
+}
+
+#tab2:checked ~ .tab-buttons .bg {
+  transform: translateX(100%);
+  background: #0f766e;
+}
+
+#tab1:checked ~ .tab-buttons label[for="tab1"],
+#tab2:checked ~ .tab-buttons label[for="tab2"] {
+  color: #fff;
+}
+
+.tab-content .content {
+  display: none;
+}
+
+#tab1:checked ~ .tab-content .content1 {
+  display: block;
+}
+
+#tab2:checked ~ .tab-content .content2 {
+  display: block;
+}
+.Index_breakdown_lists_innersides_innerright_innerdetail_innerloops_mainboxs_new::before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: url(../images/shap.svg) no-repeat center center;
+  transform: translate(0, -50%);
+  top: 50%;
+  left: -29px;
+}
+.Index_breakdown_lists_innersides_innerright_innerdetail_innerloops_mainboxs_new::after {
+  position: absolute;
+  content: "";
+  width: 64px;
+  height: 1px;
+  background: #50000b;
+  top: 50%;
+  left: -91px;
+  transform: translate(0, -50%);
+}
+@media (min-width: 0px) and (max-width: 749px) {
+  .mobile_image_new {
+    display: flex;
+  }
 }
