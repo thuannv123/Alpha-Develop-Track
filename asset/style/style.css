@@ -65,7 +65,8 @@ h3,
 .variant_name_new,
 .meta_real_reviews_video_title_new,
 .innertitle_new,
-h2 span {
+h2 span,
+.im8-savings-badge__amount {
   font-family: "ABC Arizona Flare", serif;
 }
 .header-section .header-bar span,
@@ -74,7 +75,10 @@ h2 span {
 .variant_best_value_new,
 .variant_servings_price_new,
 .Index_breakdown_lists_innersides_innerright_innerdetail_innerloops_innerboxs_price_new
-  s {
+  s,
+.Index_breakdown_lists_innersides_innerright_innerdetail_innertexts_1_sides_pricetext_new
+  s,
+.Index_breakdown_lists_innersides_innerright_innerdetail_innertexts_2_sides_pricetext_new {
   font-family: "NB Architekt";
 }
 .header-section .header-nav span {
@@ -364,8 +368,47 @@ h2 span {
   left: -91px;
   transform: translate(0, -50%);
 }
+.badge-footnote--mobile {
+  display: none;
+}
+.Index_breakdown_lists_innerstatic_videoimage_new::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(245, 234, 234, 0.7);
+  z-index: 1;
+  pointer-events: none;
+}
 @media (min-width: 0px) and (max-width: 749px) {
-  .mobile_image_new {
-    display: flex;
+  .mobile_image_new,
+  .badge-footnote--mobile {
+    display: block;
+  }
+  .Desktop_only_new,
+  .badge-footnote--desktop {
+    display: none;
+  }
+  .Mobile_only_new {
+    display: block;
+  }
+  .desktop_image_new {
+    display: none !important;
+  }
+
+  .Index_breakdown_lists_innersides_innerright_innerdetail_innerloops_mainboxs_new::before {
+    display: none;
+  }
+  .Index_breakdown_lists_innersides_innerright_innerdetail_innerloops_mainboxs_new::after {
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: url(../images/breakdown_check_icon.svg) no-repeat left center;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
   }
 }
