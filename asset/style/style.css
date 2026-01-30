@@ -1,0 +1,218 @@
+@font-face {
+  font-family: "Aeonik";
+  src: url("../fonts/aeonik_regular-webfont.woff") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "NB Architekt";
+  src: url("../fonts/nb_architekt_bold-webfont.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Aeonik";
+  src: url("../fonts/Aeonik-Medium.woff") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Aeonik";
+  src: url("../fonts/Aeonik-Bold.woff") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ABC Arizona Flare";
+  src: url("../fonts/ABCArizonaFlare-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ABC Arizona Flare";
+  src: url("../fonts/ABCArizonaFlare-Medium.woff") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ABC Arizona Flare";
+  src: url("../fonts/ABCArizonaFlare-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  padding-bottom: 1000px;
+}
+*,
+.tp-title {
+  font-family: "Aeonik", serif;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+.cpr-benefit__percent,
+.variant_name_new {
+  font-family: "ABC Arizona Flare", serif;
+}
+.header-section .header-bar span,
+.header-section .header-bar strong,
+.variant_holiday_deal_badge,
+.variant_best_value_new,
+.variant_servings_price_new {
+  font-family: "NB Architekt";
+}
+.header-section .header-nav span {
+  font-family: "Aeonik", serif;
+  font-weight: 500;
+  color: #50000b;
+}
+.header-section .header-nav ul li:hover .hover span::after {
+  transform: scaleX(1);
+  opacity: 1;
+}
+.header-section .header-nav .hover span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  opacity: 0;
+  will-change: transform, opacity;
+}
+.product-main {
+  background: #fff url(../images/Frame_1000004811-min.jpg) no-repeat top center;
+  background-size: 100% auto;
+}
+.product-variant-option-wrapper input[type="radio"] + label {
+  border-radius: 16px;
+  border: 1px solid #e1cbb9;
+  background: #fff;
+  color: #50000b;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.4px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.product-variant-option-wrapper input[type="radio"]:checked + label {
+  opacity: 0.85 !important;
+  background: linear-gradient(
+    120deg,
+    rgba(245, 234, 234, 0.8) 0%,
+    rgba(255, 242, 237, 0.6) 100%
+  ) !important;
+  box-shadow: 0 4px 12px 0 rgba(164, 0, 17, 0.15) !important;
+  border-color: #a40011 !important;
+  border: 1px solid;
+}
+.product-variant-option-wrapper input[type="radio"]:not(:checked) + label {
+  filter: saturate(0.94) brightness(0.99);
+  opacity: 0.88;
+}
+.product-variant-option-wrapper
+  input[type="radio"]:checked
+  + label
+  .variant_option_checkbox {
+  background: url(../images/radio_fill.svg) no-repeat center center;
+}
+.product-variant-option-wrapper
+  input[type="radio"]
+  + label
+  .variant_option_checkbox {
+  background: url(../images/radio.svg) no-repeat center;
+  width: 24px;
+  height: 24px;
+  margin-bottom: auto;
+  display: block;
+}
+.product-variant-option-wrapper input[type="radio"] {
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+  position: absolute;
+  height: 1px;
+  width: 1px;
+}
+.product-variant-option-wrapper
+  input[type="radio"]:checked
+  + label
+  .variant_holiday_deal_badge,
+.product-variant-option-wrapper
+  input[type="radio"]:checked
+  + label
+  .variant_best_value_new {
+  box-shadow: 0 2px 6px -2px #a4001140;
+  filter: saturate(1.15) brightness(1.05);
+}
+.bf-icon li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 3px;
+  background: url(../images/sub_check.svg) no-repeat center;
+  width: 16px;
+  height: 16px;
+}
+.tp-expert:hover {
+  transform: translateY(-3px);
+}
+.tp-expert:hover .tp-expert__image {
+  border-color: #a57d52;
+  box-shadow: 0 6px 18px -4px rgba(165, 125, 82, 0.4);
+}
+.tp-learn-more-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.35) 50%,
+    transparent 100%
+  );
+  transition: left 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+  pointer-events: none;
+}
+.tp-learn-more-btn::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(238, 184, 122, 0.5) 0%,
+    rgba(223, 206, 137, 0.3) 50%,
+    rgba(238, 184, 122, 0.5) 100%
+  );
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.4s ease;
+  filter: blur(8px);
+}
+.tp-learn-more-btn:hover {
+  box-shadow:
+    0 6px 20px -4px rgba(191, 156, 116, 0.4),
+    0 2px 8px -2px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+.tp-learn-more-btn:hover::before {
+  left: 100%;
+}
+.tp-learn-more-btn:hover::after {
+  opacity: 1;
+}

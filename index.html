@@ -1,0 +1,940 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="asset/style/style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+
+  <body>
+    <div id="shopify_header" class="header-section">
+      <div
+        class="header-bar bg-[#a40011] text-white no-underline block cursor-pointer pt-[8px] pb-[9px] px-0 relative"
+      >
+        <div
+          class="page-width max-w-[1500px] min-h-[22px] text-item text-[14px] font-bold not-italic leading-[19px] tracking-[0.28px] h-[19px] uppercase text-center mx-auto"
+        >
+          <strong>2026 STARTS NOW: </strong>
+          <span class="mobile-break"> 35% OFF — Feel Like Yourself Again</span>
+        </div>
+      </div>
+      <div class="header-nav">
+        <nav class="min-[990px]:px-[50px] page-width max-w-[1500px] mx-auto">
+          <div class="flex gap-x-[20px]">
+            <ul class="flex w-[calc(50%-50px)]">
+              <li class="relative group">
+                <a
+                  href="#"
+                  class="hover text-[clamp(13px,1vw,16px)] leading-[22px] min-[990px]:py-[21px] min-[990px]:px-[clamp(8px,1.2vw,20px)] flex items-center"
+                >
+                  <span class="relative">Shop</span>
+
+                  <img
+                    src="./asset/images/arrow-donw.svg"
+                    alt=""
+                    class="ml-2 h-3"
+                  />
+                </a>
+
+                <ul
+                  class="absolute left-0 top-full mt-2 w-48 bg-white border shadow-lg rounded opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200"
+                >
+                  <li>
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm hover:bg-gray-100"
+                    >
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover text-[clamp(13px,1vw,16px)] leading-[22px] min-[990px]:py-[21px] min-[990px]:px-[clamp(8px,1.2vw,20px)] flex items-center"
+                >
+                  <span class="relative">Science</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover text-[clamp(13px,1vw,16px)] leading-[22px] min-[990px]:py-[21px] min-[990px]:px-[clamp(8px,1.2vw,20px)] flex items-center"
+                >
+                  <span class="relative">The Beckham Stack</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover text-[clamp(13px,1vw,16px)] leading-[22px] min-[990px]:py-[21px] min-[990px]:px-[clamp(8px,1.2vw,20px)] flex items-center"
+                >
+                  <span class="relative">Welcome from David</span>
+                </a>
+              </li>
+            </ul>
+            <a href="" class="p-0 flex items-center">
+              <div
+                class="transition-[width] duration-300 ease-[cubic-bezier(.52,0,.61,.99)] w-full inline-block"
+              >
+                <img
+                  class="h-auto max-w-full w-[95.6px]"
+                  src="./asset/images/logo.svg"
+                  alt=""
+                />
+              </div>
+            </a>
+            <div
+              class="flex items-center justify-end w-[calc(50%-50px)] mr-[-20px] pr-[20px]"
+            >
+              <ul class="flex text-right">
+                <li>
+                  <a
+                    href="#"
+                    class="hover text-[clamp(13px,1vw,16px)] leading-[22px] min-[990px]:py-[21px] min-[990px]:px-[clamp(8px,1.2vw,20px)] flex items-center"
+                  >
+                    <span class="relative">Reviews</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover text-[clamp(13px,1vw,16px)] leading-[22px] min-[990px]:py-[21px] min-[990px]:px-[clamp(8px,1.2vw,20px)] flex items-center"
+                  >
+                    <span class="relative">Ingredients</span>
+                  </a>
+                </li>
+                <li class="relative group">
+                  <a
+                    href="#"
+                    class="hover text-[clamp(13px,1vw,16px)] leading-[22px] min-[990px]:py-[21px] min-[990px]:px-[clamp(8px,1.2vw,20px)] flex items-center"
+                  >
+                    <span class="relative">Discover</span>
+                    <img
+                      src="./asset/images/arrow-donw.svg"
+                      alt=""
+                      class="ml-2 h-3"
+                    />
+                  </a>
+
+                  <ul
+                    class="absolute left-0 top-full mt-2 w-48 bg-white border shadow-lg rounded opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200"
+                  >
+                    <li>
+                      <a
+                        href="#"
+                        class="block px-4 py-2 text-sm hover:bg-gray-100"
+                      >
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="block px-4 py-2 text-sm hover:bg-gray-100"
+                      >
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="block px-4 py-2 text-sm hover:bg-gray-100"
+                      >
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div
+                class="pl-[7px] flex justify-end min-[990px]:shrink-0 min-[990px]:gap-3"
+              >
+                <a
+                  href=""
+                  class="flex items-center justify-center min-[990px]:!w-[32px] min-[990px]:!h-[32px] min-[990px]:!min-w-[32px] min-[990px]:!min-h-[32px]"
+                >
+                  <img src="./asset/images/account.svg" alt="" />
+                  <span
+                    class="!absolute overflow-hidden w-px h-px m-[-1px] p-0 border-0 [clip:rect(0,0,0,0)] !break-normal top-0"
+                    >Login</span
+                  >
+                </a>
+                <a href="" class="relative">
+                  <img src="./asset/images/card-icon.svg" alt="" />
+                  <span
+                    class="!absolute overflow-hidden w-px h-px m-[-1px] p-0 border-0 [clip:rect(0,0,0,0)] !break-normal top-0"
+                    >Cart</span
+                  >
+                  <div
+                    class="absolute flex items-center justify-center text-[#50000b] text-center text-[12px] font-bold leading-[135%] bottom-[4px] right-[4px] left-auto h-6 w-6 bg-transparent"
+                  >
+                    <span>0</span>
+                    <span
+                      class="!absolute overflow-hidden w-px h-px m-[-1px] p-0 border-0 [clip:rect(0,0,0,0)] !break-normal top-0"
+                      >0 items</span
+                    >
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <main id="MainContent">
+      <div class="shopify-section">
+        <div class="product-main">
+          <div class="page-width max-w-[1500px] mx-auto min-[750px]:px-[50px]">
+            <div class="product gap-0 flex flex-wrap p-0">
+              <div class="w-[55%] max-w-[55%]"></div>
+              <div class="w-[45%] max-w-[45%]">
+                <div
+                  class="product-info pt-4 pl-[45px] max-w-full block sticky top-44 z-2"
+                >
+                  <div
+                    class="flex flex-wrap gap-2 text-[14px] font-[600] text-[#50000b] mt-[10px] mb-[14px]"
+                  >
+                    <div
+                      class="product-rating inline-flex gap-[6px] items-center"
+                    >
+                      <div class="product-review-stats__stars flex">
+                        <img
+                          src="./asset/images/star.svg"
+                          alt=""
+                          class="w-4 h-4"
+                        />
+                        <img
+                          src="./asset/images/star.svg"
+                          alt=""
+                          class="w-4 h-4"
+                        />
+                        <img
+                          src="./asset/images/star.svg"
+                          alt=""
+                          class="w-4 h-4"
+                        />
+                        <img
+                          src="./asset/images/star.svg"
+                          alt=""
+                          class="w-4 h-4"
+                        />
+                        <img
+                          src="./asset/images/star.svg"
+                          alt=""
+                          class="w-4 h-4"
+                        />
+                      </div>
+                      <span class="font-[600] text-[15px] text-[#50000b]"
+                        >4.8</span
+                      >
+                      <span class="font-[600] text-[15px] text-[#50000b]"
+                        >from 11,825 Reviews</span
+                      >
+                    </div>
+                    <div class="product-review-stats__meta">
+                      <span class="text-[#d4c4b8] mx-[2px] font-[300]">|</span>
+                      <span class="text-[#6b4c3a]"
+                        >620k+ customer purchases</span
+                      >
+                      <span class="text-[#d4c4b8] mx-[2px] font-[300]">|</span>
+                      <span class="text-[#6b4c3a]">19M+ servings</span>
+                    </div>
+                  </div>
+                  <div class="mb-4">
+                    <h1
+                      class="text-[#50000b] text-[40px] font-[400] leading-[110%]"
+                    >
+                      Daily Ultimate Essentials: <br />
+                      All-in-One Supplement
+                    </h1>
+                    <div
+                      class="mt-4 mb-3 text-[#50000b] font-[16px] font-[400] leading-[135%]"
+                    >
+                      <span
+                        >Engineered for peak absorption, this comprehensive
+                        formula replaces the need for 16 daily supplements with
+                        92 nutrient-rich ingredients in one delicious
+                        drink.*</span
+                      >
+                    </div>
+                    <div
+                      class="bg-[linear-gradient(135deg,#f0f9f4_0%,#e8f5ec_100%)] border-[1.5px] border-[#16A34A] rounded-2xl p-6 my-4 mt-0"
+                    >
+                      <div
+                        class="cpr-header flex justify-between flex-start mb-[20px] gap-3"
+                      >
+                        <h3
+                          class="cpr-title text-[22px] font-[600] text-[#50000b] m-0 leading-[1.2]"
+                        >
+                          Clinically Proven Results
+                        </h3>
+                        <span
+                          class="cpr-badge inline-flex items-center h-[25.891px] pt-[4.464px] px-[15.178px] pb-[3.427px] text-[#16A34A] rounded-[17.856px] text-[white] text-[11px] font-[700] uppercase tracking-[0.5px] whitespace-nowrap shrink-0 bg-[#16A34A]"
+                          >90-DAY CLINICAL STUDY</span
+                        >
+                      </div>
+                      <div class="cpr-benefits grid grid-cols-4 gap-4 mb-4">
+                        <div class="cpr-benefit">
+                          <div
+                            class="cpr-benefit__icon-row flex flex-row gap-[3px] mb-1 items-baseline"
+                          >
+                            <span class="cpr-benefit__emoji text-[28px]"
+                              >⚡</span
+                            >
+                            <span
+                              class="cpr-benefit__percent text-[#16A34A] text-[26px] font-[400] leading-[26px]"
+                              >95%</span
+                            >
+                          </div>
+                          <span
+                            class="cpr-benefit__label text-[13px] font-[500] text-[#50000b] leading-[1.3]"
+                            >More energy</span
+                          >
+                        </div>
+                        <div class="cpr-benefit">
+                          <div
+                            class="cpr-benefit__icon-row flex flex-row gap-[3px] mb-1 items-baseline"
+                          >
+                            <span class="cpr-benefit__emoji text-[28px]"
+                              >🦠</span
+                            >
+                            <span
+                              class="cpr-benefit__percent text-[#16A34A] text-[26px] font-[400] leading-[26px]"
+                              >85%</span
+                            >
+                          </div>
+                          <span
+                            class="cpr-benefit__label text-[13px] font-[500] text-[#50000b] leading-[1.3]"
+                            >Better gut health</span
+                          >
+                        </div>
+                        <div class="cpr-benefit">
+                          <div
+                            class="cpr-benefit__icon-row flex flex-row gap-[3px] mb-1 items-baseline"
+                          >
+                            <span class="cpr-benefit__emoji text-[28px]"
+                              >😴</span
+                            >
+                            <span
+                              class="cpr-benefit__percent text-[#16A34A] text-[26px] font-[400] leading-[26px]"
+                              >80%</span
+                            >
+                          </div>
+                          <span
+                            class="cpr-benefit__label text-[13px] font-[500] text-[#50000b] leading-[1.3]"
+                            >Better sleep quality</span
+                          >
+                        </div>
+                        <div class="cpr-benefit">
+                          <div
+                            class="cpr-benefit__icon-row flex flex-row gap-[3px] mb-1 items-baseline"
+                          >
+                            <span class="cpr-benefit__emoji text-[28px]"
+                              >🧠</span
+                            >
+                            <span
+                              class="cpr-benefit__percent text-[#16A34A] text-[26px] font-[400] leading-[26px]"
+                              >70%</span
+                            >
+                          </div>
+                          <span
+                            class="cpr-benefit__label text-[13px] font-[500] text-[#50000b] leading-[1.3]"
+                            >Sharper focus</span
+                          >
+                        </div>
+                      </div>
+                      <p
+                        class="cpr-disclaimer text-[11px] text-[#666] mb-4 italic"
+                      >
+                        *Based on 12-week randomized controlled trial by San
+                        Francisco Research Institute
+                      </p>
+                      <div class="flex justify-between items-end gap-4">
+                        <button
+                          class="flex gap-[6px] items-center text-[14px] text-[#50000b] font-[600] underline"
+                        >
+                          Why These Results Matter?
+                          <img src="./asset/images/arrow-donw.svg" alt="" />
+                        </button>
+                        <div class="flex items-center gap-2">
+                          <img
+                            src="./asset/images/logo-1.avif"
+                            alt=""
+                            class="h-[50px] w-auto object-contain"
+                          />
+                          <img
+                            src="./asset/images/logo-2.avif"
+                            alt=""
+                            class="h-[50px] w-auto object-contain"
+                          />
+                          <img
+                            src="./asset/images/logo-3.avif"
+                            alt=""
+                            class="h-[50px] w-auto object-contain"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="variant-selects">
+                      <div
+                        class="text-[#50000b] text-[16px] font-[700] leading-[135%] pb-2"
+                      >
+                        1. Select Format:
+                      </div>
+                      <div class="flex gap-x-2 items-center">
+                        <div
+                          class="flex items-center rounded-[16px] border border-[#50000b] relative basis-[calc(50%-4px)] bg-[#f5eaea]"
+                        >
+                          <img
+                            src="./asset/images/UX-Input_1.avif"
+                            alt=""
+                            class="w-[60px] rounded-l-[15px]"
+                          />
+                          <div class="py-4 px-[14px]">
+                            <div
+                              class="variant_best_value_new absolute right-4 top-[-9px] bg-[#a40011] text-white text-center text-[10px] font-bold leading-[8px] uppercase px-[15px] py-[5px] tracking-[0] rounded-[20px]"
+                            >
+                              Most Popular
+                            </div>
+                            <div class="variant_option_top_new">
+                              <span
+                                class="variant_name_new text-[20px] tracking-[0.4px] leading-[24px] font-[500] text-[#50000b]"
+                              >
+                                Forever Jar
+                              </span>
+                            </div>
+                            <div
+                              class="variant_option_bottom_new text-[#50000b] text-[12px] font-[500] leading-[16.2px]"
+                            >
+                              (354g)
+
+                              <span class="variant_servings_price_new">
+                                $2.61 USD / serving
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="flex items-center rounded-[16px] border border-[#e1cbb9] relative basis-[calc(50%-4px)]"
+                        >
+                          <img
+                            src="./asset/images/UX-Input_2.avif"
+                            alt=""
+                            class="w-[60px] rounded-l-[15px]"
+                          />
+                          <div class="py-4 px-[14px]">
+                            <div class="variant_option_top_new">
+                              <span
+                                class="variant_name_new text-[20px] tracking-[0.4px] leading-[24px] font-[500] text-[#50000b]"
+                              >
+                                Single-Serve Sachets
+                              </span>
+                            </div>
+                            <div
+                              class="variant_option_bottom_new text-[#50000b] text-[12px] font-[500] leading-[16.2px]"
+                            >
+                              (354g)
+
+                              <span class="variant_servings_price_new">
+                                $2.91 USD / serving
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="my-4">
+                        <div
+                          class="text-[#50000b] text-[16px] font-[700] leading-[135%] pb-2"
+                        >
+                          2. Subscribe & Save:
+                          <div class="flex flex-col gap-4 mt-4">
+                            <div
+                              class="product-variant-option-wrapper quarterly-variant-wrapper"
+                            >
+                              <input
+                                type="radio"
+                                id="template--17653238202535__main-2-3"
+                                name="Plan-2"
+                                value="Quarterly Subscription"
+                                form="product-form-template--17653238202535__main"
+                                checked=""
+                              />
+                              <label
+                                class="quarterly-variant-label flex pt-[20px] pb-4 px-4 rounded-[16px] gap-1"
+                                for="template--17653238202535__main-2-3"
+                              >
+                                <span class="variant_option_checkbox"></span>
+
+                                <div class="variant_option_new w-full">
+                                  <div
+                                    class="variant_holiday_deal_badge text-[11px] font-[700] absolute left-4 top-[-9px] bg-[#FEC63F] text-[#50000b] text-center leading-[8px] uppercase px-[15px] py-[5px] tracking-[0] rounded-[20px]"
+                                  >
+                                    NEW YEAR OFFER
+                                  </div>
+
+                                  <div
+                                    class="variant_best_value_new text-[11px] font-[700] absolute right-4 top-[-9px] bg-[#a40011] text-white text-center leading-[8px] uppercase px-[15px] py-[5px] tracking-[0] rounded-[20px]"
+                                  >
+                                    BEST VALUE
+                                  </div>
+
+                                  <div
+                                    class="variant_option_top_new flex items-center justify-between gap-[10px]"
+                                  >
+                                    <span
+                                      class="variant_name_new text-[20px] font-[500] tracking-[0.4px] leading-[24px]"
+                                    >
+                                      90-Day Supply
+
+                                      <span
+                                        class="variant_name_new"
+                                        style="color: #16a34a"
+                                        >(Save 30%)</span
+                                      ></span
+                                    >
+                                    <span
+                                      class="variant_option_price text-[14px] font-[700] tracking-[0.4px] leading-[24px]"
+                                      ><span class="formatted-price">$78</span>
+                                      <span
+                                        class="variant_option_price--compare opacity-60 line-through"
+                                      >
+                                        <span class="formatted-price">
+                                          $112
+                                        </span> </span
+                                      ><span class="variant_price_suffix"
+                                        >/mo</span
+                                      ></span
+                                    >
+                                  </div>
+
+                                  <div
+                                    class="variant_option_bottom_new pb-3 border-b border-[#e1cbb9] flex justify-between items-center gap-[10px]"
+                                  >
+                                    <span
+                                      class="variant_servings_new text-[14px] font-[500] leading-[18.9px] tracking-[0.4px]"
+                                      >Billed $235.00 USD every 12 weeks</span
+                                    >
+
+                                    <span
+                                      class="variant_servings_price_new text-[12px]"
+                                    >
+                                      $2.61 USD / serving
+                                    </span>
+                                  </div>
+
+                                  <ul
+                                    class="variant_option_description text-[14px] mt-3 ml-[-20px]"
+                                  >
+                                    <li class="leading-[24px] mb-[3px]">
+                                      🎓 Exclusive Access to 90 Day IM8
+                                      Transformation Program (see below)
+                                    </li>
+
+                                    <li class="leading-[24px] mb-[3px]">
+                                      💰 Maximum savings - lowest price per
+                                      serving
+                                    </li>
+
+                                    <li class="leading-[24px] mb-[3px]">
+                                      👦 Share with family and friends
+                                    </li>
+
+                                    <li class="leading-[24px] mb-[3px]">
+                                      🎁 Free Daily Ultimate Mixer (US$18)
+                                    </li>
+
+                                    <li class="leading-[24px] mb-[3px]">
+                                      🚚 Free Shipping to US, UK, CA, and most
+                                      of EU and APAC
+                                    </li>
+
+                                    <li class="leading-[24px] mb-[3px]">
+                                      ⏸️ Cancel or pause anytime
+                                    </li>
+
+                                    <li class="leading-[24px] mb-[3px]">
+                                      🎁 Free Welcome Kit: Signature Red Cup + 5
+                                      Travel Sachets (US$18)
+                                    </li>
+                                  </ul>
+                                </div>
+                              </label>
+                            </div>
+                            <div class="product-variant-option-wrapper">
+                              <input
+                                type="radio"
+                                id="template--17653238202535__main-2-0"
+                                name="Plan-2"
+                                value="Subscription"
+                                form="product-form-template--17653238202535__main"
+                              />
+                              <label
+                                for="template--17653238202535__main-2-0"
+                                class="flex pt-[20px] pb-4 px-4 rounded-[16px] gap-1"
+                              >
+                                <span class="variant_option_checkbox"></span>
+
+                                <div class="variant_option_new w-full">
+                                  <div
+                                    class="variant_option_top_new flex items-center justify-between gap-[10px]"
+                                  >
+                                    <span
+                                      class="variant_name_new text-[20px] font-[500] tracking-[0.4px] leading-[24px]"
+                                    >
+                                      30-Day Supply
+
+                                      <span class="variant_name_new"
+                                        >(Save 20%)</span
+                                      ></span
+                                    >
+
+                                    <span
+                                      class="variant_option_price text-[14px] font-[700] tracking-[0.4px] leading-[24px]"
+                                    >
+                                      <span class="formatted-price"> $89 </span>
+
+                                      <span
+                                        class="variant_option_price--compare opacity-60 line-through"
+                                      >
+                                        <span class="formatted-price">
+                                          $112
+                                        </span> </span
+                                      ><span class="variant_price_suffix"
+                                        >/mo</span
+                                      ></span
+                                    >
+                                  </div>
+
+                                  <div
+                                    class="variant_option_bottom_new pb-3 border-b border-[#e1cbb9] flex justify-between items-center gap-[10px]"
+                                  >
+                                    <span
+                                      class="variant_servings_new text-[14px] font-[500] leading-[18.9px] tracking-[0.4px]"
+                                      >Billed $89.00 USD every 4 weeks</span
+                                    >
+
+                                    <span
+                                      class="variant_servings_price_new text-[12px]"
+                                    >
+                                      $2.97 USD / serving
+                                    </span>
+                                  </div>
+
+                                  <ul
+                                    class="variant_option_description bf-icon text-[14px] mt-3 ml-[-20px]"
+                                  >
+                                    <li class="relative pl-[20px] mb-[3px]">
+                                      30-day money back guarantee
+                                    </li>
+
+                                    <li class="relative pl-[20px] mb-[3px]">
+                                      Cancel or pause anytime
+                                    </li>
+
+                                    <li class="relative pl-[20px] mb-[3px]">
+                                      Free Shipping to US, UK, CA, and most of
+                                      EU and APAC
+                                    </li>
+
+                                    <li class="relative pl-[20px] mb-[3px]">
+                                      Free Welcome Kit: Signature Red Cup + 5
+                                      Travel Sachets (US$18)
+                                    </li>
+                                  </ul>
+                                </div>
+                              </label>
+                            </div>
+                            <div class="text-center">
+                              <a
+                                href=""
+                                class="text-[14px] font-[500] border-b border-[#50000b] cursor-pointer"
+                              >
+                                One Time Purchase
+                                <span
+                                  ><span class="formatted-price">
+                                    $112
+                                  </span></span
+                                ></a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="flex gap-2 max-w-full">
+                        <button
+                          class="min-h-[48px] p-[5px] rounded-[100px] bg-[#a40011] min-w-[272px] text-white text-[16px] font-[700] leading-[.32px] uppercase w-full"
+                        >
+                          <span
+                            >START MY 90-DAY TRANSFORMATION PROGRAM-$78.33
+                            USD/mo</span
+                          >
+                        </button>
+                      </div>
+                      <div
+                        class="flex mt-4 py-[14px] px-[18px] gap-3 rounded-[12px] items-center shadow-[0_2px_8px_rgba(0,0,0,0.08)] transition-[opacity,max-height] duration-300 ease-in-out overflow-hidden border-[1.5px] border-[#22c55e] bg-[#22c55e26]"
+                      >
+                        <div
+                          class="icon w-[24px] h-[24px] bg-[#22c55e] flex items-center justify-center rounded-full"
+                        >
+                          <img
+                            src="./asset/images/tick.svg"
+                            alt=""
+                            class="w-[14px] h-[14px]"
+                          />
+                        </div>
+                        <span
+                          class="text-[#166534] font-[700] text-[14px] leading-[19.6px]"
+                          >New Year discount automatically applied at checkout
+                        </span>
+                      </div>
+                      <div
+                        class="border-2 border-[#BF9C74] bg-[linear-gradient(171deg,#FFEFD6_6.83%,rgba(255,238,219,0.5)_135.82%)] shadow-[0_4px_12px_rgba(217,119,6,0.12)] rounded-[20px] px-6 py-7 my-4"
+                      >
+                        <div class="text-center">
+                          <div
+                            class="inline-flex items-center justify-center gap-[6px] bg-[linear-gradient(90deg,#EEB87A_0%,#DFCE89_100%)] rounded-[20px] px-4 py-2 text-[12px] font-bold text-[#50000b] uppercase tracking-[0.5px] mx-auto mb-4"
+                          >
+                            <span class="tp-pill__emoji text-[14px]">🎓</span>
+                            <span
+                              class="text-[12px] tracking-[0.5px] font-[700]"
+                              >90-DAY MEMBERS ONLY</span
+                            >
+                          </div>
+                          <h3
+                            class="tp-title text-[28px] font-[500] text-[#50000b]"
+                          >
+                            90-Day IM8 Transformation Program
+                          </h3>
+                          <p
+                            class="tp-subtitle text-[14px] font-[500] mb-[20px] leading-[1.5] text-center text-[#50000b]"
+                          >
+                            Exclusive access to quarterly masterclasses with our
+                            world-class Medical and Performance Experts
+                          </p>
+                          <div class="tp-experts grid grid-cols-3 gap-4 mb-5">
+                            <a
+                              href="#"
+                              class="tp-expert flex flex-col items-center text-center no-underline rounded-xl p-2 -m-2 transition-transform duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                            >
+                              <img
+                                class="tp-expert__image w-full aspect-square rounded-xl object-cover mb-[10px] border-2 border-[#BF9C74] shadow-[0_2px_8px_-2px_rgba(0,0,0,0.08)] transition-[border-color,box-shadow] duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                                src="./asset/images/sab_Dawn_grid.webp"
+                                alt="Dr. Dawn Mussallem"
+                                width="150"
+                                height="150"
+                                loading="lazy"
+                              />
+                              <p
+                                class="tp-expert__name text-[13px] font-bold text-[#50000b] mb-1 leading-[1.3] transition-colors duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                              >
+                                Dr. Dawn Mussallem
+                              </p>
+                              <p
+                                class="tp-expert__title text-[11px] font-normal text-[#6b4c3a] leading-[1.4]"
+                              >
+                                Cancer Survivor &amp; Physician at Mayo Clinic
+                              </p>
+                            </a>
+                            <a
+                              href="#"
+                              class="tp-expert flex flex-col items-center text-center no-underline rounded-xl p-2 -m-2 transition-transform duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                            >
+                              <img
+                                class="tp-expert__image w-full aspect-square rounded-xl object-cover mb-[10px] border-2 border-[#BF9C74] shadow-[0_2px_8px_-2px_rgba(0,0,0,0.08)] transition-[border-color,box-shadow] duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                                src="./asset/images/sab_2.avif"
+                                alt="Dr. Dawn Mussallem"
+                                width="150"
+                                height="150"
+                                loading="lazy"
+                              />
+                              <p
+                                class="tp-expert__name text-[13px] font-bold text-[#50000b] mb-1 leading-[1.3] transition-colors duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                              >
+                                Bobby Rich
+                              </p>
+                              <p
+                                class="tp-expert__title text-[11px] font-normal text-[#6b4c3a] leading-[1.4]"
+                              >
+                                Trainer to David Beckham and World-class
+                                Athletes
+                              </p>
+                            </a>
+                            <a
+                              href="#"
+                              class="tp-expert flex flex-col items-center text-center no-underline rounded-xl p-2 -m-2 transition-transform duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                            >
+                              <img
+                                class="tp-expert__image w-full aspect-square rounded-xl object-cover mb-[10px] border-2 border-[#BF9C74] shadow-[0_2px_8px_-2px_rgba(0,0,0,0.08)] transition-[border-color,box-shadow] duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                                src="./asset/images/sab_3.avif"
+                                alt="Dr. Suzanne Devkota"
+                                width="150"
+                                height="150"
+                                loading="lazy"
+                              />
+                              <p
+                                class="tp-expert__name text-[13px] font-bold text-[#50000b] mb-1 leading-[1.3] transition-colors duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                              >
+                                Dr. Suzanne Devkota
+                              </p>
+                              <p
+                                class="tp-expert__title text-[11px] font-normal text-[#6b4c3a] leading-[1.4]"
+                              >
+                                Gut Health Expert & Prof at Cedars Sinai
+                              </p>
+                            </a>
+                            <a
+                              href="#"
+                              class="tp-expert flex flex-col items-center text-center no-underline rounded-xl p-2 -m-2 transition-transform duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                            >
+                              <img
+                                class="tp-expert__image w-full aspect-square rounded-xl object-cover mb-[10px] border-2 border-[#BF9C74] shadow-[0_2px_8px_-2px_rgba(0,0,0,0.08)] transition-[border-color,box-shadow] duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                                src="./asset/images/Rectangle_5.avif"
+                                alt="Tavi Castro"
+                                width="150"
+                                height="150"
+                                loading="lazy"
+                              />
+                              <p
+                                class="tp-expert__name text-[13px] font-bold text-[#50000b] mb-1 leading-[1.3] transition-colors duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                              >
+                                Tavi Castro
+                              </p>
+                              <p
+                                class="tp-expert__title text-[11px] font-normal text-[#6b4c3a] leading-[1.4]"
+                              >
+                                Breathwork Expert & Free-Diving World Record
+                                Holder
+                              </p>
+                            </a>
+                            <a
+                              href="#"
+                              class="tp-expert flex flex-col items-center text-center no-underline rounded-xl p-2 -m-2 transition-transform duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                            >
+                              <img
+                                class="tp-expert__image w-full aspect-square rounded-xl object-cover mb-[10px] border-2 border-[#BF9C74] shadow-[0_2px_8px_-2px_rgba(0,0,0,0.08)] transition-[border-color,box-shadow] duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                                src="./asset/images/Rectangle_7.avif"
+                                alt="Dr. Amy Shah"
+                                width="150"
+                                height="150"
+                                loading="lazy"
+                              />
+                              <p
+                                class="tp-expert__name text-[13px] font-bold text-[#50000b] mb-1 leading-[1.3] transition-colors duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                              >
+                                Dr. Amy Shah
+                              </p>
+                              <p
+                                class="tp-expert__title text-[11px] font-normal text-[#6b4c3a] leading-[1.4]"
+                              >
+                                Double-Board Certified Physician and Host of
+                                "Save Yourself" Podcast
+                              </p>
+                            </a>
+                            <a
+                              href="#"
+                              class="tp-expert flex flex-col items-center text-center no-underline rounded-xl p-2 -m-2 transition-transform duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                            >
+                              <img
+                                class="tp-expert__image w-full aspect-square rounded-xl object-cover mb-[10px] border-2 border-[#BF9C74] shadow-[0_2px_8px_-2px_rgba(0,0,0,0.08)] transition-[border-color,box-shadow] duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                                src="./asset/images/Rectangle_6.avif"
+                                alt="Dr. Ara Suppiah"
+                                width="150"
+                                height="150"
+                                loading="lazy"
+                              />
+                              <p
+                                class="tp-expert__name text-[13px] font-bold text-[#50000b] mb-1 leading-[1.3] transition-colors duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                              >
+                                Dr. Ara Suppiah
+                              </p>
+                              <p
+                                class="tp-expert__title text-[11px] font-normal text-[#6b4c3a] leading-[1.4]"
+                              >
+                                Performance & Longevity Physician at LIV Golf
+                              </p>
+                            </a>
+                          </div>
+                          <div
+                            class="text-[13px] font-medium text-[#50000b] text-center leading-[1.5] pt-4 border-t border-[rgba(191,156,116,0.3)]"
+                          >
+                            Get personalized guidance, exclusive content, and
+                            direct access to leading experts in health
+                            optimization, performance, and longevity.
+                          </div>
+                          <div
+                            class="tp-learn-more-btn flex items-center justify-center gap-2 w-full mt-4 px-5 py-3 bg-[linear-gradient(90deg,#EEB87A_0%,#DFCE89_100%)] border-0 rounded-xl text-[13px] font-bold text-[#50000b] uppercase tracking-[0.5px] no-underline cursor-pointer relative overflow-hidden isolate shadow-[0_2px_8px_-2px_rgba(191,156,116,0.25),inset_0_1px_0_rgba(255,255,255,0.3)] transition-shadow duration-400 ease-[cubic-bezier(0.4,0,0.2,1)]"
+                          >
+                            <span>Learn More About the Program</span>
+                            <img src="./asset/images/arrow-right.svg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="bg-[#F0FDF4] border-2 border-[#16A34A] rounded-2xl px-6 py-5 my-4 flex items-center gap-4"
+                      >
+                        <div
+                          class="icon w-[36px] h-[36px] flex items-center justify-center"
+                        >
+                          <img src="./asset/images/greencheck.avif" alt="" />
+                        </div>
+                        <div class="mbg-content">
+                          <h4
+                            class="mbg-title text-[20px] font-semibold text-[#50000b] mb-1 leading-[1.2]"
+                          >
+                            30-Day 100% Money Back Guarantee
+                          </h4>
+                          <p
+                            class="mbg-subtitle text-[13px] font-[400] m-0 leading-[1.4]"
+                          >
+                            We're so confident you'll love it, take a full 30
+                            days to decide
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="flex items justify-center gap-[5px] text-[12px] text-[#50000b]"
+                      >
+                        <span class="font-bold">Pay with HSA/FSA</span>
+                        <img src="./asset/images/wow.svg" alt="" />
+                        <span>Save an average of 30%</span>
+                        <a href="" class="underline font-bold">Learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./asset/js/js.js"></script>
+  </body>
+</html>
