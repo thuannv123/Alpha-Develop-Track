@@ -279,7 +279,7 @@ h2 span,
   padding-right: 23px;
 }
 .video_list2.slick-initialized .slick-slide {
-  padding-right: 23px;
+  padding-right: 16px;
 }
 .rw-hover {
   transform: translateY(0);
@@ -421,13 +421,14 @@ h2 span,
   display: flex;
   height: 100%;
 }
+
+.bg-st {
+  background: url(../images/bgdt.webp) no-repeat center center !important;
+  background-size: cover !important;
+}
 @media screen and (min-width: 750px) {
   .hero-bg {
     background-image: url("../images/approvedby_bg.webp");
-  }
-  .bg-st {
-    background: url(../images/bgdt.webp) no-repeat center center !important;
-    background-size: cover !important;
   }
   .hero-bg2 {
     background-image: url("../images/testimonials.webp");
