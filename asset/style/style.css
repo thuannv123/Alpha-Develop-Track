@@ -278,6 +278,9 @@ h2 span,
 .slide_post.slick-initialized .slick-slide {
   padding-right: 23px;
 }
+.video_list2.slick-initialized .slick-slide {
+  padding-right: 23px;
+}
 .rw-hover {
   transform: translateY(0);
   transition: all 0.3s;
@@ -383,7 +386,8 @@ h2 span,
   z-index: 1;
   pointer-events: none;
 }
-.hero-bg {
+.hero-bg,
+.hero-bg2 {
   min-height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
@@ -406,6 +410,17 @@ h2 span,
   padding-right: 19px;
   cursor: pointer;
 }
+.video_list2 .slick-track {
+  display: flex !important;
+}
+.video_list2 .slick-slide {
+  height: auto !important;
+  display: flex !important;
+}
+.video_list2 .slick-slide > div {
+  display: flex;
+  height: 100%;
+}
 @media screen and (min-width: 750px) {
   .hero-bg {
     background-image: url("../images/approvedby_bg.webp");
@@ -413,6 +428,9 @@ h2 span,
   .bg-st {
     background: url(../images/bgdt.webp) no-repeat center center !important;
     background-size: cover !important;
+  }
+  .hero-bg2 {
+    background-image: url("../images/testimonials.webp");
   }
 }
 @media (min-width: 0px) and (max-width: 749px) {
@@ -446,5 +464,8 @@ h2 span,
   }
   .hero-bg {
     background-image: url("../images/approvedby_mbg.webp");
+  }
+  .hero-bg2 {
+    background-image: url("../images/why_people_like_IM8.webp");
   }
 }
