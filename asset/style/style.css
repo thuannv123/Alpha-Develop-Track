@@ -410,6 +410,10 @@ h2 span,
   .hero-bg {
     background-image: url("../images/approvedby_bg.webp");
   }
+  .bg-st {
+    background: url(../images/bgdt.webp) no-repeat center center !important;
+    background-size: cover !important;
+  }
 }
 @media (min-width: 0px) and (max-width: 749px) {
   .mobile_image_new,
