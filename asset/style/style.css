@@ -388,7 +388,6 @@ h2 span,
 }
 .hero-bg,
 .hero-bg2 {
-  min-height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -400,10 +399,7 @@ h2 span,
   z-index: 1;
   display: flex;
   transition-property: transform;
-  transition-timing-function: var(
-    --swiper-wrapper-transition-timing-function,
-    initial
-  );
+
   box-sizing: content-box;
 }
 .slide_list.slick-initialized .slick-slide {
