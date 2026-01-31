@@ -55,9 +55,6 @@
   font-family: "Aeonik", serif;
   box-sizing: border-box;
 }
-body {
-  padding-bottom: 2000px;
-}
 h1,
 h2,
 h3,
@@ -79,7 +76,8 @@ h2 span,
   s,
 .Index_breakdown_lists_innersides_innerright_innerdetail_innertexts_1_sides_pricetext_new
   s,
-.Index_breakdown_lists_innersides_innerright_innerdetail_innertexts_2_sides_pricetext_new {
+.Index_breakdown_lists_innersides_innerright_innerdetail_innertexts_2_sides_pricetext_new,
+.field__input::placeholder {
   font-family: "NB Architekt";
 }
 .header-section .header-nav span {
@@ -462,6 +460,16 @@ h2 span,
   transform: translateY(0) scale(1);
   opacity: 1;
 }
+.dot-cl::after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  top: 6px;
+  left: -9px;
+}
 @media screen and (min-width: 750px) {
   .hero-bg {
     background-image: url("../images/approvedby_bg.webp");
@@ -504,5 +512,55 @@ h2 span,
   }
   .hero-bg2 {
     background-image: url("../images/why_people_like_IM8.webp");
+  }
+
+  .toggle-block.active .item {
+    max-height: 2000px;
+    padding-bottom: 16px;
+    transition:
+      max-height 10s cubic-bezier(0.22, 1, 0.36, 1),
+      padding-bottom 1s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .toggle-block .item {
+    max-height: 0;
+    overflow: hidden;
+    padding-bottom: 0;
+    transition:
+      max-height 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+      padding-bottom 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: max-height;
+  }
+  .Footer_1_newsletter_mainboth_new {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+  .Footer_1_newsletter_innerboth_new:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, #eae0d2cc 0 100%);
+    z-index: 1;
+  }
+  .h4-font {
+    font-family: "ABC Arizona Flare";
+  }
+  .ft-tog::after {
+    content: url(../images/footer_plus.svg);
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    right: 0;
+  }
+  .toggle-block.toggle-block.active .ft-tog::after {
+    content: url(../images/footer_minus.svg);
   }
 }

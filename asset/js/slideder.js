@@ -102,17 +102,17 @@ $(document).ready(function () {
   });
   $(".video_list2").slick({
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 300,
     slidesToShow: 4.39,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 0,
-    speed: 10000,
+    speed: 8000,
     cssEase: "linear",
 
     pauseOnHover: true,
-    pauseOnFocus: true,
+    pauseOnFocus: false,
     responsive: [
       {
         breakpoint: 1024,
