@@ -255,6 +255,12 @@ h2 span,
 .toggle-block.active .bg-span {
   background-image: url(../images/minus.svg);
 }
+.bg-span2 {
+  background-image: url(../images/plus-wh.svg);
+}
+.toggle-block.active .bg-span2 {
+  background-image: url(../images/minus-wh.svg);
+}
 .video_view.slick-initialized .slick-slide {
   padding-right: 12px;
   cursor: pointer;
