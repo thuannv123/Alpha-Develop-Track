@@ -327,6 +327,9 @@ h2 span,
   z-index: 1;
   pointer-events: none;
 }
+.product-slide .slick-dots {
+  display: none !important;
+}
 .hero-bg,
 .hero-bg2 {
   background-repeat: no-repeat;
@@ -342,6 +345,15 @@ h2 span,
   width: 5px;
   height: 239px;
   background: #d9d9d9;
+}
+.mobileMenu .lose {
+  display: none;
+}
+.mobileMenu.active .lose {
+  display: block;
+}
+.mobileMenu.active .hamberger {
+  display: none;
 }
 .slide_list {
   position: relative;
