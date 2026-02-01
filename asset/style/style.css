@@ -65,7 +65,7 @@ h3,
 h2 span,
 .im8-savings-badge__amount,
 .metafield-rich_text_field {
-  font-family: "ABC Arizona Flare", serif;
+  font-family: "ABC Arizona Flare", serif !important;
 }
 .header-section .header-bar span,
 .header-section .header-bar strong,
@@ -332,6 +332,16 @@ h2 span,
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.memu-cus::-webkit-scrollbar-thumb {
+  background-color: #a3162b;
+  width: 5px;
+  height: 239px;
+}
+.memu-cus::-webkit-scrollbar {
+  width: 5px;
+  height: 239px;
+  background: #d9d9d9;
 }
 .slide_list {
   position: relative;
@@ -914,6 +924,30 @@ h2 span,
 #p5b:checked ~ .ui2 .panel2.p5b {
   display: block;
 }
+.slider-galeria-thumbs {
+  float: left;
+  width: 16%;
+  padding-right: 20px;
+}
+
+.slider-galeria {
+  float: left;
+  width: 84%;
+}
+.slick-vertical .slick-slide {
+  padding: 10px 3px;
+}
+.slider-galeria div,
+.slider-galeria-thumbs div {
+  outline: 0;
+}
+.slider-galeria div,
+.slider-galeria-thumbs img {
+  border-radius: 16px;
+}
+.product-slide .slick-dots {
+  display: none;
+}
 @media (max-width: 480px) {
   .tab {
     padding: 10px 12px;
@@ -1013,5 +1047,35 @@ h2 span,
   }
   .toggle-block.toggle-block.active .ft-tog::after {
     content: url(../images/footer_minus.svg);
+  }
+  .product-slide .slick-dots {
+    bottom: 0;
+    margin-top: 10px;
+    width: fit-content !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    position: relative;
+    display: block;
+  }
+  .product-slide .slick-dots li {
+    margin: 0 !important;
+  }
+  .product-slide .slick-dots li button {
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  .product-slide .slick-dots li button:before {
+    content: "";
+    display: block;
+    background-color: #ff9693;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  .product-slide .slick-dots li.slick-active button:before {
+    background-color: #50000b;
+    opacity: 1;
   }
 }

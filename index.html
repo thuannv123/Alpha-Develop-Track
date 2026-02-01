@@ -223,18 +223,99 @@
     </div>
     <main id="MainContent">
       <div class="shopify-section">
-        <div class="product-main pb-[80px]">
+        <div class="product-main pb-[80px] pt-8">
           <div
-            class="page-width max-[749px]:px-[20px] max-w-[1500px] mx-auto min-[750px]:px-[50px]"
+            class="page-width max-[749px]:px-[0] max-w-[1500px] mx-auto min-[750px]:px-[50px] min-[750px]:max-[989px]:py-0 min-[750px]:max-[989px]:px-[20px]"
           >
-            <div class="product gap-0 flex flex-wrap p-0">
-              <div class="w-[55%] max-w-[55%]"></div>
-              <div class="w-[45%] max-w-[45%]">
+            <div
+              class="product gap-0 flex flex-wrap p-0 items-start max-[749px]:block"
+            >
+              <div
+                class="w-[55%] grow shrink min-[750px]:max-[989px]:w-[48%] max-[749px]:w-full"
+              >
                 <div
-                  class="product-info pt-4 pl-[45px] max-w-full block sticky top-44 z-2"
+                  class="block sticky top-[110px] z-[2] max-[749px]:static max-[749px]:hidden"
+                >
+                  <div class="slider-galeria-thumbs">
+                    <div>
+                      <img src="./asset/images/prd1.webp" alt="" />
+                    </div>
+                    <div>
+                      <img src="./asset/images/prd2.webp" alt="" />
+                    </div>
+                    <div>
+                      <img src="./asset/images/prd3.webp" alt="" />
+                    </div>
+                    <div>
+                      <img src="./asset/images/prd4.webp" alt="" />
+                    </div>
+                    <div>
+                      <img src="./asset/images/prd5.webp" alt="" />
+                    </div>
+                    <div>
+                      <img src="./asset/images/prd6.webp" alt="" />
+                    </div>
+                    <div>
+                      <img src="./asset/images/prd7.webp" alt="" />
+                    </div>
+                  </div>
+
+                  <div class="slider-galeria">
+                    <div>
+                      <img src="./asset/images/prd1.webp" alt="" />
+                    </div>
+                    <div>
+                      <img src="./asset/images/prd2.webp" alt="" />
+                    </div>
+                    <div>
+                      <img src="./asset/images/prd3.webp" alt="" />
+                    </div>
+                    <div>
+                      <img src="./asset/images/prd4.webp" alt="" />
+                    </div>
+                    <div>
+                      <img src="./asset/images/prd5.webp" alt="" />
+                    </div>
+                    <div>
+                      <img src="./asset/images/prd6.webp" alt="" />
+                    </div>
+                    <div>
+                      <img src="./asset/images/prd7.webp" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="product-slide min-[750px]:hidden">
+                  <div>
+                    <img src="./asset/images/prd1.webp" class="w-full" />
+                  </div>
+                  <div>
+                    <img src="./asset/images/prd2.webp" class="w-full" />
+                  </div>
+                  <div>
+                    <img src="./asset/images/prd3.webp" class="w-full" />
+                  </div>
+                  <div>
+                    <img src="./asset/images/prd4.webp" class="w-full" />
+                  </div>
+                  <div>
+                    <img src="./asset/images/prd5.webp" class="w-full" />
+                  </div>
+                  <div>
+                    <img src="./asset/images/prd6.webp" class="w-full" />
+                  </div>
+                  <div>
+                    <img src="./asset/images/prd7.webp" class="w-full" />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-[45%] grow shrink min-[750px]:max-[989px]:w-[48%] max-[749px]:w-full min-[750px]:max-[989px]:pl-[20px] max-[749px]:px-[20px]"
+              >
+                <div
+                  class="product-info pl-[45px] max-w-full sticky top-[110px] z-[2] block min-[750px]:max-[989px]:p-0 max-[749px]:px-0"
                 >
                   <div
-                    class="flex flex-wrap gap-2 text-[14px] font-[600] text-[#50000b] mt-[10px] mb-[14px]"
+                    class="flex flex-wrap gap-2 text-[14px] font-[600] text-[#50000b] mb-[14px] max-[749px]:flex-col max-[749px]:items-start max-[749px]:gap-0 max-[749px]:mt-0"
                   >
                     <div
                       class="product-rating inline-flex gap-[6px] items-center"
@@ -274,7 +355,10 @@
                       >
                     </div>
                     <div class="product-review-stats__meta">
-                      <span class="text-[#d4c4b8] mx-[2px] font-[300]">|</span>
+                      <span
+                        class="text-[#d4c4b8] mx-[2px] font-[300] max-[749px]:hiddenZ"
+                        >|</span
+                      >
                       <span class="text-[#6b4c3a]"
                         >620k+ customer purchases</span
                       >
@@ -284,7 +368,7 @@
                   </div>
                   <div class="mb-4">
                     <h1
-                      class="text-[#50000b] text-[40px] font-[400] leading-[110%]"
+                      class="text-[#50000b] text-[40px] font-[400] leading-[110%] min-[750px]:max-[989px]:text-[32px] min-[750px]:max-[989px]:tracking-[-0.64px]"
                     >
                       Daily Ultimate Essentials: <br />
                       All-in-One Supplement
@@ -425,63 +509,93 @@
                       </div>
                       <div class="flex gap-x-2 items-center">
                         <div
-                          class="flex items-center rounded-[16px] border border-[#50000b] relative basis-[calc(50%-4px)] bg-[#f5eaea]"
+                          class="product-variant-option-wrapper basis-[calc(50%-4px)] relative"
                         >
-                          <img
-                            src="./asset/images/UX-Input_1.avif"
-                            alt=""
-                            class="w-[60px] rounded-l-[15px]"
+                          <input
+                            type="radio"
+                            id="template--17653238202535__main-1-0"
+                            name="Format-1"
+                            value="Forever Jar"
+                            form="product-form-template--17653238202535__main"
+                            checked=""
                           />
-                          <div class="py-4 px-[14px]">
-                            <div
-                              class="variant_best_value_new absolute right-4 top-[-9px] bg-[#a40011] text-white text-center text-[10px] font-bold leading-[8px] uppercase px-[15px] py-[5px] tracking-[0] rounded-[20px]"
-                            >
-                              Most Popular
-                            </div>
-                            <div class="variant_option_top_new">
-                              <span
-                                class="variant_name_new text-[20px] tracking-[0.4px] leading-[24px] font-[500] text-[#50000b]"
-                              >
-                                Forever Jar
-                              </span>
-                            </div>
-                            <div
-                              class="variant_option_bottom_new text-[#50000b] text-[12px] font-[500] leading-[16.2px]"
-                            >
-                              (354g)
+                          <label for="template--17653238202535__main-1-0">
+                            <img
+                              src="./asset/images/UX-Input_1.avif"
+                              class="product-variant-option-image rounded-l-[15px]"
+                              width="60"
+                              height="100%"
+                              alt="ux input"
+                            />
 
-                              <span class="variant_servings_price_new">
-                                $2.61 USD / serving
-                              </span>
+                            <div class="variant_option_new py-4 px-[14px]">
+                              <div
+                                class="variant_best_value_new absolute right-4 top-[-9px] bg-[#a40011] text-white text-center text-[10px] font-bold leading-[8px] uppercase px-[15px] py-[5px] tracking-[0] rounded-[20px]"
+                              >
+                                Most Popular
+                              </div>
+
+                              <div class="variant_option_top_new">
+                                <span
+                                  class="variant_name_new text-[20px] tracking-[0.4px] leading-[24px] font-[500] text-[#50000b] min-[750px]:max-[989px]:text-[18px]"
+                                >
+                                  Forever Jar
+                                </span>
+
+                                <div
+                                  class="variant_best_value_new variant_best_value_new absolute right-4 top-[-9px] bg-[#a40011] text-white text-center text-[10px] font-bold leading-[8px] uppercase px-[15px] py-[5px] tracking-[0] rounded-[20px]"
+                                >
+                                  MOST POPULAR
+                                </div>
+                              </div>
+
+                              <div
+                                class="text-[#50000b] text-[12px] font-[500] leading-[16.2px]"
+                              >
+                                (354g)
+
+                                <span class=""> $2.61 USD / serving </span>
+                              </div>
                             </div>
-                          </div>
+                          </label>
                         </div>
                         <div
-                          class="flex items-center rounded-[16px] border border-[#e1cbb9] relative basis-[calc(50%-4px)]"
+                          class="product-variant-option-wrapper basis-[calc(50%-4px)] relative"
                         >
-                          <img
-                            src="./asset/images/UX-Input_2.avif"
-                            alt=""
-                            class="w-[60px] rounded-l-[15px]"
+                          <input
+                            type="radio"
+                            id="template--17653238202535__main-1-1"
+                            name="Format-1"
+                            value="Single-Serve Sachets"
+                            form="product-form-template--17653238202535__main"
                           />
-                          <div class="py-4 px-[14px]">
-                            <div class="variant_option_top_new">
-                              <span
-                                class="variant_name_new text-[20px] tracking-[0.4px] leading-[24px] font-[500] text-[#50000b]"
-                              >
-                                Single-Serve Sachets
-                              </span>
-                            </div>
-                            <div
-                              class="variant_option_bottom_new text-[#50000b] text-[12px] font-[500] leading-[16.2px]"
-                            >
-                              (354g)
+                          <label for="template--17653238202535__main-1-1">
+                            <img
+                              src="./asset/images/UX-Input_2.avif"
+                              class="product-variant-option-image rounded-l-[15px]"
+                              width="60"
+                              height="100%"
+                              alt="ux input"
+                            />
 
-                              <span class="variant_servings_price_new">
-                                $2.91 USD / serving
-                              </span>
+                            <div class="variant_option_new py-4 px-[14px]">
+                              <div class="variant_option_top_new">
+                                <span
+                                  class="variant_name_new text-[20px] tracking-[0.4px] leading-[24px] font-[500] text-[#50000b] min-[750px]:max-[989px]:text-[18px]"
+                                >
+                                  Single-Serve Sachets
+                                </span>
+                              </div>
+
+                              <div
+                                class="text-[#50000b] text-[12px] font-[500] leading-[16.2px]"
+                              >
+                                (354g)
+
+                                <span class=""> $2.91 USD / serving </span>
+                              </div>
                             </div>
-                          </div>
+                          </label>
                         </div>
                       </div>
                       <div class="my-4">
@@ -704,12 +818,11 @@
                       </div>
                       <div class="flex gap-2 max-w-full">
                         <button
-                          class="min-h-[48px] p-[5px] rounded-[100px] bg-[#a40011] min-w-[272px] text-white text-[16px] font-[700] leading-[.32px] uppercase w-full"
+                          class="min-h-[48px] p-[5px] rounded-[100px] bg-[#a40011] min-w-[272px] text-white text-[16px] font-[700] uppercase w-full flex items-center justify-center"
                         >
-                          <span
-                            >START MY 90-DAY TRANSFORMATION PROGRAM-$78.33
-                            USD/mo</span
-                          >
+                          <span>START MY 90-DAY TRANSFORMATION PROGRAM</span>
+                          <span>-</span>
+                          <span>$78.33 USD/mo</span>
                         </button>
                       </div>
                       <div
@@ -1154,7 +1267,7 @@
     <div class="shopify-section relative">
       <div class="py-[115px]">
         <div
-          class="page-width max-[749px]:px-[20px] max-w-[1500px] mx-auto min-[750px]:px-[50px]"
+          class="page-width max-[749px]:px-[20px] max-w-[1500px] mx-auto min-[750px]:px-[50px] min-[750px]:max-[989px]:px-[20px]"
         >
           <div class="absolute w-full h-full top-0 left-0">
             <div class="w-full h-full">
@@ -1166,26 +1279,102 @@
               <img
                 src="./asset/images/clinical_studies.webp"
                 alt=""
-                class="mobile_image_new"
+                class="mobile_image_new absolute w-full h-full"
               />
             </div>
           </div>
-          <div class="max-w-[83.133%] m-auto relative">
-            <div class="Mobile_only_new"></div>
-            <div>
-              <div class="flex items-center justify-between">
-                <div class="w-[41.667%]">
+          <div
+            class="max-w-[83.133%] m-auto relative min-[750px]:max-[989px]:max-w-full max-[749px]:max-w-full"
+          >
+            <div class="Mobile_only_new min-[750px]:hidden">
+              <div class="max-[749px]:max-w-[337px] max-[749px]:mx-auto">
+                <div>
+                  <h2 class="text-[35px] text-white text-center">
+                    Clinically Proven.<br />
+                    More Energy. <br />
+                    A Healthier Gut.<span class="small-asterisk">*</span>
+                  </h2>
+                </div>
+                <div
+                  class="flex flex-col px-[20px] py-[16px] gap-[12px] max-w-[calc(100%-32px)] mt-[20px] mx-auto text-center items-center justify-center w-fit rounded-[14px] border-2 border-[#F59E0B] bg-[linear-gradient(105deg,#FEF9E7_0%,#FEF3C7_40%,#FDE68A_100%)] shadow-[0_6px_20px_rgba(245,158,11,0.28),0_2px_6px_rgba(0,0,0,0.04)]"
+                >
+                  <div class="flex-col pr-0 gap-2 w-full flex">
+                    <span class="nsf-certified-banner__trophy">🏆</span>
+                    <div
+                      class="nsf-certified-banner__text flex flex-col gap-[3px]"
+                    >
+                      <span
+                        class="nsf-certified-banner__title text-[13px] font-extrabold text-[#44403C] uppercase tracking-[0.8px] leading-[1.2]"
+                        >NSF CERTIFIED FOR SPORT</span
+                      >
+                      <span
+                        class="nsf-certified-banner__subtitle text-[12px] font-semibold text-[#B45309] tracking-[0.2px]"
+                        >280+ Substances Tested</span
+                      >
+                    </div>
+                  </div>
                   <div
-                    class="innertitle_new text-[20px] font-[500] leading-[120%] tracking-[0.4px] text-[white]"
+                    class="nsf-certified-banner__divider block w-[80%] min-w-[80%] h-[2px] min-h-[2px] bg-[linear-gradient(90deg,rgba(245,158,11,0.1)_0%,rgba(245,158,11,0.35)_50%,rgba(245,158,11,0.1)_100%)]"
+                  ></div>
+                  <div
+                    class="w-[64px] h-[64px] rounded-full overflow-hidden flex-shrink-0 border-[3px] border-[#F59E0B] shadow-[0_2px_8px_rgba(245,158,11,0.3)]"
+                  >
+                    <img
+                      src="./asset/images/media_arynasabalenka_2x_1.avif"
+                      alt="Aryna Sabalenka"
+                      loading="lazy"
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div class="flex flex-col">
+                    <span
+                      class="nsf-certified-banner__trusted text-[14px] font-[600] text-[#44403C] leading-[1.3]"
+                      >Trusted by
+                      <span
+                        class="nsf-certified-banner__name text-[#B45309] font-[700]"
+                        >Aryna Sabalenka</span
+                      ></span
+                    >
+                    <span
+                      class="text-[13px] font-[500] text-[#57534E] tracking-[0.2px]"
+                      >World No. 1 Tennis Player</span
+                    >
+                  </div>
+                </div>
+                <div
+                  class="Index_tab_percent_studies_inneroverlay_innersides_innerright_innerboths_infos_new pt-4"
+                >
+                  <p
+                    class="text-white text-center text-[16px] font-normal leading-[135%]"
+                  >
+                    Every ingredient is third-party tested and NSF Certified for
+                    Sport, ensuring it's free from over 280 banned substances,
+                    heavy metals and contaminants. Trusted by athletes and
+                    sports leagues, including WADA, NFL, MLB, NHL, and PGA.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="flex items-center justify-between max-[749px]:pt-4 max-[749px]:block"
+              >
+                <div
+                  class="w-[41.667%] min-[750px]:max-[989px]:w-[54%] max-[749px]:w-full"
+                >
+                  <div
+                    class="innertitle_new text-[20px] font-[500] leading-[120%] tracking-[0.4px] text-[white] max-[749px]:pt-4 max-[749px]:text-center"
                   >
                     Daily Ultimate Essentials
                   </div>
-                  <div class="max-w-[460px] pt-6">
-                    <div class="flex flex-wrap gap-y-5 gap-x-6">
+                  <div class="max-w-[460px] pt-6 max-[749px]:mx-auto">
+                    <div
+                      class="flex flex-wrap gap-y-5 gap-x-6 min-[750px]:max-[989px]:gap-y-[20px] min-[750px]:max-[989px]:gap-x-[18px]"
+                    >
                       <div class="w-[calc(50%-12px)]">
                         <div class="header-inner">
                           <h2
-                            class="text-white text-[80px] font-light leading-[1] tracking-[-1px] relative"
+                            class="text-white text-[80px] font-light leading-[1] tracking-[-1px] relative min-[750px]:max-[989px]:text-[56px] max-[749px]:text-[56px] max-[749px]:pb-2"
                           >
                             <span>95</span>%
                           </h2>
@@ -1202,7 +1391,7 @@
                       <div class="w-[calc(50%-12px)]">
                         <div class="header-inner">
                           <h2
-                            class="text-white text-[80px] font-light leading-[1] tracking-[-1px] relative"
+                            class="text-white text-[80px] font-light leading-[1] tracking-[-1px] relative min-[750px]:max-[989px]:text-[56px] max-[749px]:text-[56px] max-[749px]:pb-2"
                           >
                             <span>85</span>%
                           </h2>
@@ -1218,7 +1407,7 @@
                       <div class="w-[calc(50%-12px)]">
                         <div class="header-inner">
                           <h2
-                            class="text-white text-[80px] font-light leading-[1] tracking-[-1px] relative"
+                            class="text-white text-[80px] font-light leading-[1] tracking-[-1px] relative min-[750px]:max-[989px]:text-[56px] max-[749px]:text-[56px] max-[749px]:pb-2"
                           >
                             <span>80</span>%
                           </h2>
@@ -1234,7 +1423,7 @@
                       <div class="w-[calc(50%-12px)]">
                         <div class="header-inner">
                           <h2
-                            class="text-white text-[80px] font-light leading-[1] tracking-[-1px] relative"
+                            class="text-white text-[80px] font-light leading-[1] tracking-[-1px] relative min-[750px]:max-[989px]:text-[56px] max-[749px]:text-[56px] max-[749px]:pb-2"
                           >
                             <span>70</span>%
                           </h2>
@@ -1251,9 +1440,11 @@
                     </div>
                   </div>
                 </div>
-                <div class="w-[54.5%]">
+                <div
+                  class="w-[54.5%] min-[750px]:max-[989px]:w-[42%] max-[749px]:hidden"
+                >
                   <h2
-                    class="text-[32px] min-[750px]:text-[52px] text-[white] text-center leading-[110%] font-[300]"
+                    class="text-[32px] min-[750px]:text-[52px] text-[white] text-center leading-[110%] font-[300] min-[750px]:max-[989px]:font-[400]"
                   >
                     Clinically Proven.<br />
                     More Energy. <br />
@@ -1266,11 +1457,11 @@
                       <span class="nsf-certified-banner__trophy">🏆</span>
                       <div class="nsf-certified-banner__text flex flex-col">
                         <span
-                          class="text-[15px] font-extrabold text-[#44403C] uppercase tracking-[0.8px] leading-[1.2]"
+                          class="text-[15px] font-extrabold text-[#44403C] uppercase tracking-[0.8px] leading-[1.2] max-[989px]:text-[13px]"
                           >NSF CERTIFIED FOR SPORT</span
                         >
                         <span
-                          class="text-[13px] font-semibold text-[#B45309] tracking-[0.2px]"
+                          class="text-[13px] font-semibold text-[#B45309] tracking-[0.2px] max-[989px]:text-[12px]"
                           >280+ Substances Tested</span
                         >
                       </div>
@@ -1283,15 +1474,15 @@
                     >
                       <div class="flex flex-col">
                         <span
-                          class="nsf-certified-banner__trusted text-[14px] font-[600] text-[#44403C] leading-[1.3]"
+                          class="nsf-certified-banner__trusted text-[14px] font-[600] text-[#44403C] leading-[1.3] max-[989px]:text-[13px]"
                           >Trusted by
                           <span
-                            class="nsf-certified-banner__name text-[#B45309] font-[700]"
+                            class="nsf-certified-banner__name text-[#B45309] font-[700] max-[989px]:text-[13px]"
                             >Aryna Sabalenka</span
                           ></span
                         >
                         <span
-                          class="text-[13px] font-[500] text-[#57534E] tracking-[0.2px]"
+                          class="text-[13px] font-[500] text-[#57534E] tracking-[0.2px] max-[989px]:text-[12px]"
                           >World No. 1 Tennis Player</span
                         >
                       </div>
@@ -1309,7 +1500,7 @@
                   </div>
                   <div class="pt-[24px]">
                     <p
-                      class="text-white text-center text-[16px] font-normal leading-[1.35] max-w-[420px] mx-auto"
+                      class="text-white text-center text-[16px] font-normal leading-[1.35] max-w-[420px] mx-auto min-[750px]:max-[989px]:max-w-[280px]"
                     >
                       Every ingredient is third-party tested and NSF Certified
                       for Sport, ensuring it's free from over 280 banned
@@ -1336,11 +1527,30 @@
                   </div>
                 </div>
               </div>
+
+              <div class="flex pt-3 justify-center min-[749px]:hidden">
+                <a
+                  href=""
+                  class="min-w-[330px] bg-[#50000b] rounded-[100px] px-[17px] py-[13px] min-w-[272px] text-white text-[16px] font-bold leading-[22px] tracking-[0.32px] uppercase"
+                >
+                  View Third-Party Testing Results
+                </a>
+              </div>
+              <div class="flex pt-3 justify-center min-[749px]:hidden">
+                <a
+                  href=""
+                  class="min-w-[330px] bg-[#ff9693] text-center rounded-[100px] px-[17px] py-[13px] min-w-[272px] text-[#50000b] text-[16px] font-bold leading-[22px] tracking-[0.32px] uppercase"
+                >
+                  Learn More
+                </a>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="absolute bottom-0 left-0 px-[56px] py-[40px]">
+        <div
+          class="absolute bottom-0 left-0 px-[56px] py-[40px] min-[750px]:max-[989px]:p-5 max-[749px]:p-5"
+        >
           <p class="m-0 text-white text-[12px] leading-[1.35]">
             *Results Based on a 12-Week Randomized, Controlled, Clinical Trial
             Conducted by the San Francisco Research Institute. Please Click Here
