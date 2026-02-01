@@ -976,6 +976,9 @@ h2 span,
   }
 }
 @media (min-width: 0px) and (max-width: 749px) {
+  .product-slide .slick-dots {
+    display: block !important;
+  }
   .mobile_image_new,
   .badge-footnote--mobile {
     display: block;
